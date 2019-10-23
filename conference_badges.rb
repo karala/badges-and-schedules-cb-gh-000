@@ -4,15 +4,15 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  sentences = []
-  names.each do |name|
-    sentences << "Hello, my name is #{name}."
+  # sentences = []
+  names.collect do |name|
+    "Hello, my name is #{name}."
   end
   sentences
 end
 
-def assign_rooms(list)
-
+def assign_rooms
+  
 end
 
 def printer
