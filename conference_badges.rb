@@ -1,5 +1,5 @@
 # Write your code here.
-def badge_maker(names)
+def batch_badge_creator(names)
   names.each do |name|
     puts "Hello, my name is #{name}."
   end
